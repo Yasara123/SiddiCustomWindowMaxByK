@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1447932555036
+Build-Jdk: 1.7.0_85
+Built-By: yasara
+Bundle-Description: Siddhi, high performing Complex Event Processing Eng
+ ine
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: siddhi-extension-CustomWin
+Bundle-SymbolicName: siddhi-extension-CustomWin
+Bundle-Vendor: WSO2
+Bundle-Version: 3.0.4.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.siddhi.extension.CustomWin;uses:="org.wso2.sidd
+ hi.query.api.definition,org.wso2.siddhi.core.event,org.wso2.siddhi.core
+ .exception,org.wso2.siddhi.core.config,org.wso2.siddhi.core.executor,or
+ g.wso2.siddhi.core.executor.function,org.wso2.siddhi.core.event.stream,
+ org.wso2.siddhi.core.query.processor,org.wso2.siddhi.core.event.stream.
+ populater,org.wso2.siddhi.core.query.processor.stream,org.wso2.siddhi.c
+ ore.executor.math.Subtract";version="3.0.4.SNAPSHOT"
+Import-Package: Jama.util;resolution:=optional,org.wso2.siddhi.core.conf
+ ig;resolution:=optional;version="[3.0,4)",org.wso2.siddhi.core.event;re
+ solution:=optional;version="[3.0,4)",org.wso2.siddhi.core.event.stream;
+ resolution:=optional;version="[3.0,4)",org.wso2.siddhi.core.event.strea
+ m.populater;resolution:=optional;version="[3.0,4)",org.wso2.siddhi.core
+ .exception;resolution:=optional;version="[3.0,4)",org.wso2.siddhi.core.
+ executor;resolution:=optional;version="[3.0,4)",org.wso2.siddhi.core.ex
+ ecutor.function;resolution:=optional;version="[3.0,4)",org.wso2.siddhi.
+ core.executor.math.Subtract;resolution:=optional;version="[3.0,4)",org.
+ wso2.siddhi.core.query.processor;resolution:=optional;version="[3.0,4)"
+ ,org.wso2.siddhi.core.query.processor.stream;resolution:=optional;versi
+ on="[3.0,4)",org.wso2.siddhi.query.api.definition;resolution:=optional;
+ version="[3.0,4)"
+Tool: Bnd-1.50.0
